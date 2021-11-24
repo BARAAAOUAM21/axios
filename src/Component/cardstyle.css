@@ -1,0 +1,33 @@
+
+div{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+
+
+}
+article {
+  height: 400px;
+  width: 300px;
+  margin: 15px 85px;
+  color: rgb(255, 220, 255);
+  box-shadow:5px 5px 115px -14px rgb(221, 162, 223);
+  border-radius: 25px;
+  border: thick  #020202;
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #eba1eb 0%, #705e6b 100%);
+  }
+Button {
+  border: none;
+  outline: none;
+  background: linear-gradient(90deg, #ac74ac, #cc97c1);
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  color: white;
+  font-size: 1rem;
+  box-shadow: 1px 10px 2rem rgba(252, 168, 227, 0.5);
+ margin-top: 15px;
+}
+Button:hover{
+  background: linear-gradient(90deg, #b32eb3, #e25ec8);
+}
